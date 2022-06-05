@@ -1,0 +1,4 @@
+embedding_size: 64
+encoder: MF
+momentum: 0.995
+training_neg_sample_num: 0

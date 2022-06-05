@@ -1,0 +1,4 @@
+embedding_size: 64
+encoder: MF
+training_neg_sample_num: 0
+gamma: 1
