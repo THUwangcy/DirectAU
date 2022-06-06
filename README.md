@@ -1,6 +1,6 @@
 # DirectAU
 
-<img title="" src="./asset/model.png" alt="illustration" width="632">
+<img title="" src="./asset/model.png" alt="illustration" width="702">
 
 Implementation of the paper "[Towards Representation Alignment and Uniformity in Collaborative Filtering]()" in KDD'22.
 
