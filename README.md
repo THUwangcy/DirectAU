@@ -1,6 +1,6 @@
 # DirectAU
 
-![illustration](./asset/model.png)
+<img src="./asset/model.png" title="" alt="illustration" width="615">
 
 Implementation of the paper "[Towards Representation Alignment and Uniformity in Collaborative Filtering]()" in KDD'22.
 
@@ -36,7 +36,7 @@ We integrate our DirectAU method ([directau.py](https://github.com/THUwangcy/Dir
 python run_recbole.py \
     --model=DirectAU --dataset=Beauty \
     --learning_rate=1e-3 --weight_decay=1e-6 \
-    --gamma=0.5 --encoder=MF
+    --gamma=0.5 --encoder=MF --train_batch_size=256
 
 # Gowalla
 python run_recbole.py \
@@ -48,7 +48,7 @@ python run_recbole.py \
 python run_recbole.py \
     --model=DirectAU --dataset=Yelp \
     --learning_rate=1e-3 --weight_decay=1e-6 \
-    --gamma=1 --encoder=MF --train_batch_size=1024
+    --gamma=1 --encoder=MF --train_batch_size=1024
 ```
 
 To test DirectAU on other datasets, you should prepare datasets similar to the existing ones. More explanations about the dataset format can be found in the [Atomic Files](https://recbole.io/atomic_files.html) of RecBole. 
