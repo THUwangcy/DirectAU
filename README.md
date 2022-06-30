@@ -2,7 +2,7 @@
 
 <img title="" src="./asset/model.png" alt="illustration" width="801">
 
-Implementation of the paper "[Towards Representation Alignment and Uniformity in Collaborative Filtering]()" in KDD'22.
+Implementation of the paper "[Towards Representation Alignment and Uniformity in Collaborative Filtering](https://arxiv.org/abs/2206.12811)" in KDD'22.
 
 This work investigates the desired properties of representations in collaborative filtering (CF) from the perspective of *alignment* and *uniformity*. The proposed [DirectAU](https://github.com/THUwangcy/DirectAU/blob/main/recbole/model/general_recommender/directau.py) provides a new learning objective for CF-based recommender systems, which directly optimizes representation alignment and uniformity on the hypersphere. A simple MF encoder optimizing this loss can achieve superior performance compared to SOTA CF methods. 
 
@@ -112,7 +112,7 @@ def overall_uniform(index_list, embedding):
 If you find this work is helpful to your research, please consider citing our paper:
 
 ```
-Waiting for citation information.
+TBD
 ```
 
 ## Contact
