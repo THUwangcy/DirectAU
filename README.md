@@ -112,7 +112,13 @@ def overall_uniform(index_list, embedding):
 If you find this work is helpful to your research, please consider citing our paper:
 
 ```
-TBD
+@inproceedings{wang2022towards,
+  title={Towards Representation Alignment and Uniformity in Collaborative Filtering},
+  author={Wang, Chenyang and Yu, Yuanqing and Ma, Weizhi and Zhang, Min and Chen, Chong and Liu, Yiqun and Ma, Shaoping},
+  booktitle={Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages={1816--1825},
+  year={2022}
+}
 ```
 
 ## Contact
